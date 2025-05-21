@@ -1,0 +1,6 @@
+@Mailling.API_HostAddress = http://localhost:5270
+
+GET {{Mailling.API_HostAddress}}/Mailling/
+Accept: application/json
+
+###
