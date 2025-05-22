@@ -10,12 +10,12 @@ namespace Mailling.API.Controllers
     {
         private readonly MailService _mailService;
 
-        public MailController()
+        public MailController(MailService mailService)
         {
             _mailService = new MailService();
         }
 
-        [HttpPost("mailling")]
+        [HttpPost("mail")]
         public IActionResult ProcessEmail([FromBody] Mail request)
         {
             var response = _mailService.CreateResponse(request);
