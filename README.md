@@ -30,8 +30,10 @@
 
 ### Запуск backend
 ```bash
-```dotnet run
+dotnet run
+```
 Сервер запустится на https://localhost:7187
+
 
 ### Запуск frontend
 Откройте файл index.html в браузере
